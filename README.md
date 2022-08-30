@@ -43,11 +43,13 @@ python src/EDUextractor.py -task ext
 EDU-Rewriter
 --------------
 ```
-python src/EDUrewriter
+python src/EDUrewriter.py
 
 ```
 Evaluate Model
 =============
+Set the path of the best EDU-selector model and the best EDU-rewriter model in src/EDU_ext_then_rewrite.py
+---------------------
 ```
-python src/EDU_ext_then_rewrite
+python src/EDU_ext_then_rewrite.py
 ```
