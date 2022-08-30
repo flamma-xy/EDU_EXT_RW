@@ -2,6 +2,8 @@ EDU_EXT_RW
 ================
 This code is for the paper [Extractive Elementary Discourse Units for Improving Abstractive Summarization](https://dl.acm.org/doi/abs/10.1145/3477495.3531916)
 -----------------------------------
+Some code from [Presum](https://github.com/nlpyang/PreSumm/tree/70b810e0f06d179022958dd35c1a3385fe87f28c)
+
 
 Environment
 ===============
