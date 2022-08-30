@@ -43,7 +43,7 @@ class GuidAbsHandler:
         parser.add_argument("-bert_data_path", default='./bert_data/')
         parser.add_argument("-model_path", default='./models/')
         parser.add_argument("-result_path", default='./results/cnndm')
-        parser.add_argument('-log_file', default='./logs/exp_guidabs.log')
+        parser.add_argument('-log_file', default='./logs/EDUrewriter.log')
         parser.add_argument("-temp_dir", default='./temp')
 
         if self.quick_test:
@@ -200,8 +200,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     # split bert data
     parser.add_argument("-source_data_path", default='./bert_data/')
-    parser.add_argument("-root_path", default='./exp_guidabs')
-    parser.add_argument("-log_file", default='./logs/exp_guidabs.log')
+    parser.add_argument("-root_path", default='./EDUrewriter')
+    parser.add_argument("-log_file", default='./logs/EDUrewriter.log')
     parser.add_argument("-quick_test", nargs='?', const=True, default=False, type=bool)
     args = parser.parse_args()
 
