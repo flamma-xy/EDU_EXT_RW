@@ -13,7 +13,7 @@ pip install requirement.txt
 
 Data
 ========
-Downloda the [preprocessed data](https://drive.google.com/drive/folders/1wUqyH8bSLTbODBI3LW_w3xwmeLl6vj6r?usp=sharing) and put in ./EDU_EXT_RW/bert_data
+Create a data folder ./EDU_EXT_RW/bert_data/, Downloda the [pre-processed data](https://drive.google.com/file/d/1Wtciys2lO39cvmC6J-gcUfnNYYIJyQUQ/view?usp=sharing) and put in ./EDU_EXT_RW/bert_data
 
 Train
 ========
