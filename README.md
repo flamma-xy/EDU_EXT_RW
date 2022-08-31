@@ -53,3 +53,14 @@ Set the path of the best EDU-selector model and the best EDU-rewriter model in s
 ```
 python src/EDU_ext_then_rewrite.py
 ```
+Citing
+============
+```
+@inproceedings{xiong2022extractive,
+  title={Extractive Elementary Discourse Units for Improving Abstractive Summarization},
+  author={Xiong, Ye and Racharak, Teeradaj and Nguyen, Minh Le},
+  booktitle={Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={2675--2679},
+  year={2022}
+}
+```
